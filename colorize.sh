@@ -1,3 +1,22 @@
+######
+#
+# colorize.sh
+# https://www.github.com/kolonuk/colorize.sh
+#
+# In bash:
+#    source <(curl -s https://raw.githubusercontent.com/kolonuk/colorize.sh/main/colorize.sh)
+#    echo -e "${RED}Red text${END}"
+#
+# POSIX compliant:
+#    . colours.sh
+#    echo -e "${RED}Red text${END}"
+#
+#
+# If echo -e doesn't work as-is (reported on some Macs), try printf:
+#    echo -e $(printf "${RED}Red text${END}")
+#
+######
+
 RESET="\033[0m"
 END=$RESET
 
